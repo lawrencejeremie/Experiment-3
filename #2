@@ -1,0 +1,48 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+
+int provinceA[7],provinceB[7],provinceC[7],a;
+
+
+for (a=0;a<7;a++)
+{
+  cout<<"Enter temperature for province A Day"<<a+1<<": ";
+  cin>>provinceA[a];
+}
+
+for (a=0;a<7;a++)
+{
+  cout<<"Enter temperature for province B Day"<<a+1<<": ";
+  cin>>provinceB[a];
+}
+
+for (a=0;a<7;a++)
+{
+  cout<<"Enter temperature for province C Day"<<a+1<<": ";
+  cin>>provinceC[a];
+}
+
+for (a=0;a<7;a++)
+{
+  cout<<"The temperature for province A Day"<<a+1<<": ";
+  cout<<provinceA[a]<<endl;
+}
+
+for (a=0;a<7;a++)
+{
+  cout<<"The temperature for province B Day"<<a+1<<": ";
+  cout<<provinceB[a]<<endl;
+}
+
+for (a=0;a<7;a++)
+{
+  cout<<"The temperature for province C Day"<<a+1<<": ";
+  cout<<provinceC[a]<<endl;
+}
+
+return 0;
+}
